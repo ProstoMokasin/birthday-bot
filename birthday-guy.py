@@ -87,11 +87,11 @@ def start():
 
         # construct message text
         postText = ''
-        if len(lastNames) == 1:
-            postText = emoji.emojize(birthdayText + lastNames[0])
-        elif len(lastNames) > 1:
-            for i, name in enumerate(lastNames):
-                if i != (len(lastNames) - 1):
+        if len(birthdayBoys) == 1:
+            postText = emoji.emojize(birthdayText + birthdayBoys[0])
+        elif len(birthdayBoys) > 1:
+            for i, name in enumerate(birthdayBoys):
+                if i != (len(birthdayBoys) - 1):
                     postText += emoji.emojize(birthdayText + name + '\n\n')
                 else:
                     postText += emoji.emojize(birthdayText + name)
