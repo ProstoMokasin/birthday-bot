@@ -8,7 +8,7 @@ botID: 'b913db789b2ce8c93b1be41259'
 postText: ":party_popper: Happy Birthday to "
 
 # Time at what to start the bot like: "9:00"
-timeStart: "1:00"
+timeStart: "3:00"
 
 # Timezone which is used to start the bot like: "America/Los_Angeles"
 # (see full list of variants: "https://mljar.com/blog/list-pytz-timezones/")
