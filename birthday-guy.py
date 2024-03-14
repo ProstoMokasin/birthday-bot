@@ -17,12 +17,6 @@ threads = list()
 @app.route('/')
 def hello_world():
     print("hello world")
-    config = yaml.safe_load(open("config.yml"))
-    postData = {'bot_id': config["botID"],
-                'text': "Birthday Bot has been reloaded"}
-
-    r = requests.post('https://api.groupme.com/v3/bots/post', json=postData)
-    print(r)
 
 def start():
     print("STARTED RUNNING FUNCTION 'START()'")
