@@ -43,7 +43,7 @@ def start():
 
         # Current Date
         datetimeObject = datetime.now()
-        currentDate = str(datetimeObject.month) + "/" + str(datetimeObject.day+2)
+        currentDate = str(datetimeObject.month) + "/" + str(datetimeObject.day)
         # currentDate = '12/30' # used for testing (best birthday)
 
         # defining the object and localising it to a timezone
